@@ -121,9 +121,15 @@
 	-o-transition: color 0.7s cubic-bezier(0.165, 0.85, 0.45, 1);
 }
 
+
 .header .top-menu ul li:first-child {
 	margin-left: 0;
 }
+
+.header .top-menu ul li.menu-item-download-cv {
+	display: none;
+}
+
 
 .header .top-menu ul li:hover > .sub-menu, .header .top-menu ul li:hover > .children {
 	opacity: 1;
@@ -398,6 +404,11 @@
 		margin-left: 0;
 		display: block;
 	}
+
+	.header .top-menu ul li.menu-item-download-cv {
+		display: block;
+	}
+
 
 
 	.header .top-menu ul li a {
